@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+/* Estilos para el encabezado */
+#encabezado {
+  font-family: cursive;
+  background-color: #333;
+  color: #c0c0c0;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para el menú de navegación */
+.menu-navegacion {
+  margin: 1cm;
+  padding: 0;
+}
+
+.menu-navegacion li {
+  display: inline;
+  margin-right: 50px;
+}
+
+.menu-navegacion li a {
+  color: #c0c0c0;
+  text-decoration: none;
+}
+
+/* Estilos para el contenido principal */
+.contenido-principal {
+  background-color: #e9e9e9;
+}
+
+/* Estilos para las secciones del contenido principal */
+.seccion {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f4f4f4;
+  font-family: sans-serif;
+}
+
+/* Estilos para los títulos de sección */
+.titulo-seccion {
+  color: #595959;
+}
+
+/* Estilos para el contenido dentro de las secciones */
+.contenido-seccion p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.contenido-seccion ul {
+    margin-bottom: 20px;
+}
+
+.contenido-seccion ol {
+    margin-bottom: 20px;
+}
+
+.contenido-seccion table {
+	margin-bottom: 20px;
+}
+
+.contenido-seccion th, .contenido-seccion td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos para el contenido adicional */
+.adicional {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+}
+
+/* Estilos para enlaces e imágenes dentro del contenido adicional */
+.adicional a:hover{
+	 background-color: #eaeaea;
+}
+.adicional img {
+    display: block;
+    margin: 0 auto 10px;
+    margin-bottom: 10px;
+    height: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+/* Estilos para el pie de página */
+#pie-pagina {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para enlaces dentro del pie de página */
+#pie-pagina a {
+  color: #fff;
+  text-decoration: none;
+}
+
